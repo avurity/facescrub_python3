@@ -8,7 +8,7 @@ import cv2
 
 
 files = ['facescrub_actors.txt', 'facescrub_actresses.txt']
-RESULT_ROOT = r'C:\Users\anude\Downloads\facescrub-master\facescrub-master\data'
+RESULT_ROOT = './data'
 if not exists(RESULT_ROOT):
     os.mkdir(RESULT_ROOT)
 
